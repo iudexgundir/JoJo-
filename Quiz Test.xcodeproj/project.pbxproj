@@ -14,6 +14,9 @@
 		DCEC0FBE24F6AC3600D14E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEC0FBD24F6AC3600D14E5E /* Assets.xcassets */; };
 		DCEC0FC124F6AC3600D14E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEC0FBF24F6AC3600D14E5E /* LaunchScreen.storyboard */; };
 		DCEC0FC924F6C84600D14E5E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEC0FC824F6C84600D14E5E /* Question.swift */; };
+		DCEC0FD024F6CA4200D14E5E /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEC0FCF24F6CA4200D14E5E /* ResponseType.swift */; };
+		DCEC0FD224F6CB2F00D14E5E /* Answers .swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEC0FD124F6CB2F00D14E5E /* Answers .swift */; };
+		DCEC0FD424F6CBB600D14E5E /* CharacterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEC0FD324F6CBB600D14E5E /* CharacterType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		DCEC0FC024F6AC3600D14E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCEC0FC224F6AC3600D14E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCEC0FC824F6C84600D14E5E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DCEC0FCF24F6CA4200D14E5E /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		DCEC0FD124F6CB2F00D14E5E /* Answers .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Answers .swift"; sourceTree = "<group>"; };
+		DCEC0FD324F6CBB600D14E5E /* CharacterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		DCEC0FB324F6AC3400D14E5E /* Quiz Test */ = {
 			isa = PBXGroup;
 			children = (
+				DCEC0FC224F6AC3600D14E5E /* Info.plist */,
 				DCEC0FCB24F6C86F00D14E5E /* Model */,
 				DCEC0FCC24F6C88F00D14E5E /* View */,
 				DCEC0FCA24F6C86400D14E5E /* Controller */,
@@ -79,6 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				DCEC0FC824F6C84600D14E5E /* Question.swift */,
+				DCEC0FCF24F6CA4200D14E5E /* ResponseType.swift */,
+				DCEC0FD124F6CB2F00D14E5E /* Answers .swift */,
+				DCEC0FD324F6CBB600D14E5E /* CharacterType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,7 +107,6 @@
 			children = (
 				DCEC0FB424F6AC3400D14E5E /* AppDelegate.swift */,
 				DCEC0FB624F6AC3400D14E5E /* SceneDelegate.swift */,
-				DCEC0FC224F6AC3600D14E5E /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,6 +192,9 @@
 				DCEC0FB924F6AC3400D14E5E /* ViewController.swift in Sources */,
 				DCEC0FC924F6C84600D14E5E /* Question.swift in Sources */,
 				DCEC0FB524F6AC3400D14E5E /* AppDelegate.swift in Sources */,
+				DCEC0FD024F6CA4200D14E5E /* ResponseType.swift in Sources */,
+				DCEC0FD224F6CB2F00D14E5E /* Answers .swift in Sources */,
+				DCEC0FD424F6CBB600D14E5E /* CharacterType.swift in Sources */,
 				DCEC0FB724F6AC3400D14E5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,12 +343,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = SWKFWA48F2;
 				INFOPLIST_FILE = "Quiz Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "govoroverx.Quiz-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -350,12 +365,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = SWKFWA48F2;
 				INFOPLIST_FILE = "Quiz Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "govoroverx.Quiz-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
